@@ -1,0 +1,13 @@
+language: rust
+rust:
+- nightly
+before_install:
+- - REDACTED
+deploy:
+  provider: gae
+  keyfile: "~/secure.json"
+  project: vrdata-dev
+  skip_cleanup: true
+env:
+  global:
+    secure: Rp5q2MKpAwypwKyTSX4yZzlnbgHPS4R5UTxFiFUX00UiMIs1cb79/jIxtMQPGmE4RE+0hx3pI5XX8Z1qQA5sS2U4vVctG+ZjiQhBgKpIoAd+tqfNQHL9LsF0Kn+0K812Y5tkCeOpBa3PoQSUxulVYZGfq4q/eMbefhEPCHMmgpT+BbNPxy5YvBgT5exqgYD54A7B5wZ6iQHxnbgM61cpfqrpuT+buiZXiudd6M7/NTm18VWZZWwtlPBgSAZIUdZWHbHI8Gakiefbmxiaibaxg6uCNkDj1t7R87VvGzzt/b2KFrfJzzQ1N5xI/xRU0DRUI9Nwe+alxml1xA1XXS1S/tl0TZPBWL5BcF3bble5AR4UOY30/VCuGXUD29+0egiviV2GVChoibxcSre5FYH6EeJgiX6U5MFWO3IJ1tNq//yvuQxuPL3KVBnHdc8VeCEG2lf5scs2WHR1eGl1eUveKGRzCQvEMQUMDBuP8zlG7WTN9L4aI3v4tEgpw5ye7JHn0/LUUjAMCkaNE0k/nTKl5iyTsH+gxyvJUTY17ooRy+ih34BdRuSln2pfdX3jQk2ppXDIAxIOSOAgU6kjeAIpMkXjmeB3kQKE8zjPSFce/g4rzfDwXf2f1bkH+C1QRRcBUWRO1WiHWf+Q6a2Qiy6LNxgiBmwdCr5KDioPjfuGwDM=
