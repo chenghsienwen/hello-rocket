@@ -4,8 +4,6 @@ before_install:
   language: rust
 rust:
 - nightly
-before_install:
-- [REDACTED]
 deploy:
   provider: gae
   keyfile: ~/secure.json
