@@ -1,4 +1,4 @@
-FROM ubuntu 16.04
+FROM centos:7
 MAINTAINER Chenghsien_wen <chenghsienwen@gmail.com>
 EXPOSE 8080
 ENV SOURCES=/sources
