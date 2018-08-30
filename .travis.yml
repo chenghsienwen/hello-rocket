@@ -6,6 +6,6 @@ before_install:
   -in secure.json.enc -out ~/secure.json -d
 deploy:
   provider: gae
-  keyfile: ~/secure.json
+  keyfile: "~/secure.json"
   project: hello-rocket
   skip_cleanup: true
